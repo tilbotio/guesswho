@@ -1,0 +1,12 @@
+{
+    "scripts": {
+      "tailwind": "npx tailwindcss -i ./css/in.css -o ./css/guesswho.css --watch"
+    },
+    "devDependencies": {
+      "tailwindcss": "^3.3.2"
+    },
+    "dependencies": {
+      "daisyui": "^2.51.6"
+    }
+  }
+  

@@ -1,0 +1,131 @@
+<!doctype html>
+<html class="w-full h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/guesswho.css" rel="stylesheet">
+  <script type="text/javascript" src="js/guesswho.js"></script>
+</head>
+<body class="w-full h-full">
+    <div class="flex w-full h-full">
+        <div class="flex-1 max-w-[75%] h-full">
+            <div class="flex flex-col items-center w-full max-w-full p-4">
+                <div class="w-full h-full bg-[#045092] rounded text-center">
+                    <img src="img/logo.svg" class="w-[22%] py-3 inline">
+
+
+                    <div class="flex w-full h-full flex-wrap">
+                        <div class="w-[11.5%] m-[0.5%] bg-[#ffffff] rounded cursor-pointer char char-basil" onclick="toggle_card(this)">
+                            <img src="img/card_back.svg" class="back rounded hidden" />
+                            <img src="img/basil.svg" class="char-img" />
+                        </div>
+                        <div class="w-[11.5%] m-[0.5%] bg-[#ffffff] rounded cursor-pointer char char-melvin" onclick="toggle_card(this)">
+                            <img src="img/card_back.svg" class="back rounded hidden" />
+                            <img src="img/melvin.svg" class="char-img" />
+                        </div>
+                        <div class="w-[11.5%] m-[0.5%] bg-[#ffffff] rounded cursor-pointer char char-hannah" onclick="toggle_card(this)">
+                            <img src="img/card_back.svg" class="back rounded hidden" />
+                            <img src="img/hannah.svg" class="char-img" />
+                        </div>
+                        <div class="w-[11.5%] m-[0.5%] bg-[#ffffff] rounded cursor-pointer char char-simone" onclick="toggle_card(this)">
+                            <img src="img/card_back.svg" class="back rounded hidden" />
+                            <img src="img/simone.svg" class="char-img" />
+                        </div>
+                        <div class="w-[11.5%] m-[0.5%] bg-[#ffffff] rounded cursor-pointer char char-ian" onclick="toggle_card(this)">
+                            <img src="img/card_back.svg" class="back rounded hidden" />
+                            <img src="img/ian.svg" class="char-img" />
+                        </div>
+                        <div class="w-[11.5%] m-[0.5%] bg-[#ffffff] rounded cursor-pointer char char-isla" onclick="toggle_card(this)">
+                            <img src="img/card_back.svg" class="back rounded hidden" />
+                            <img src="img/isla.svg" class="char-img" />
+                        </div>
+                        <div class="w-[11.5%] m-[0.5%] bg-[#ffffff] rounded cursor-pointer char char-rupert" onclick="toggle_card(this)">
+                            <img src="img/card_back.svg" class="back rounded hidden" />
+                            <img src="img/rupert.svg" class="char-img" />
+                        </div>
+                        <div class="w-[11.5%] m-[0.5%] bg-[#ffffff] rounded cursor-pointer char char-maggie" onclick="toggle_card(this)">
+                            <img src="img/card_back.svg" class="back rounded hidden" />
+                            <img src="img/maggie.svg" class="char-img" />
+                        </div> 
+                        
+                        <div class="w-[11.5%] m-[0.5%] bg-[#ffffff] rounded cursor-pointer char char-susan" onclick="toggle_card(this)">
+                            <img src="img/card_back.svg" class="back rounded hidden" />
+                            <img src="img/susan.svg" class="char-img" />
+                        </div>
+                        <div class="w-[11.5%] m-[0.5%] bg-[#ffffff] rounded cursor-pointer char char-natalie" onclick="toggle_card(this)">
+                            <img src="img/card_back.svg" class="back rounded hidden" />
+                            <img src="img/natalie.svg" class="char-img" />
+                        </div>
+                        <div class="w-[11.5%] m-[0.5%] bg-[#ffffff] rounded cursor-pointer char char-kim" onclick="toggle_card(this)">
+                            <img src="img/card_back.svg" class="back rounded hidden" />
+                            <img src="img/kim.svg" class="char-img" />
+                        </div>
+                        <div class="w-[11.5%] m-[0.5%] bg-[#ffffff] rounded cursor-pointer char char-stephen" onclick="toggle_card(this)">
+                            <img src="img/card_back.svg" class="back rounded hidden" />
+                            <img src="img/stephen.svg" class="char-img" />
+                        </div>
+                        <div class="w-[11.5%] m-[0.5%] bg-[#ffffff] rounded cursor-pointer char char-joshua" onclick="toggle_card(this)">
+                            <img src="img/card_back.svg" class="back rounded hidden" />
+                            <img src="img/joshua.svg" class="char-img" />
+                        </div>
+                        <div class="w-[11.5%] m-[0.5%] bg-[#ffffff] rounded cursor-pointer char char-xiao-mei" onclick="toggle_card(this)">
+                            <img src="img/card_back.svg" class="back rounded hidden" />
+                            <img src="img/xiao-mei.svg" class="char-img" />
+                        </div>
+                        <div class="w-[11.5%] m-[0.5%] bg-[#ffffff] rounded cursor-pointer char char-jennifer" onclick="toggle_card(this)">
+                            <img src="img/card_back.svg" class="back rounded hidden" />
+                            <img src="img/jennifer.svg" class="char-img" />
+                        </div>
+                        <div class="w-[11.5%] m-[0.5%] bg-[#ffffff] rounded cursor-pointer char char-brian" onclick="toggle_card(this)">
+                            <img src="img/card_back.svg" class="back rounded hidden" />
+                            <img src="img/brian.svg" class="char-img" />
+                        </div> 
+                        
+                        <div class="w-[11.5%] m-[0.5%] bg-[#ffffff] rounded cursor-pointer char char-gary" onclick="toggle_card(this)">
+                            <img src="img/card_back.svg" class="back rounded hidden" />
+                            <img src="img/gary.svg" class="char-img" />
+                        </div>
+                        <div class="w-[11.5%] m-[0.5%] bg-[#ffffff] rounded cursor-pointer char char-martine" onclick="toggle_card(this)">
+                            <img src="img/card_back.svg" class="back rounded hidden" />
+                            <img src="img/martine.svg" class="char-img" />
+                        </div>
+                        <div class="w-[11.5%] m-[0.5%] bg-[#ffffff] rounded cursor-pointer char char-bill" onclick="toggle_card(this)">
+                            <img src="img/card_back.svg" class="back rounded hidden" />
+                            <img src="img/bill.svg" class="char-img" />
+                        </div>
+                        <div class="w-[11.5%] m-[0.5%] bg-[#ffffff] rounded cursor-pointer char char-roy" onclick="toggle_card(this)">
+                            <img src="img/card_back.svg" class="back rounded hidden" />
+                            <img src="img/roy.svg" class="char-img" />
+                        </div>
+                        <div class="w-[11.5%] m-[0.5%] bg-[#ffffff] rounded cursor-pointer char char-edna" onclick="toggle_card(this)">
+                            <img src="img/card_back.svg" class="back rounded hidden" />
+                            <img src="img/edna.svg" class="char-img" />
+                        </div>
+                        <div class="w-[11.5%] m-[0.5%] bg-[#ffffff] rounded cursor-pointer char char-mo" onclick="toggle_card(this)">
+                            <img src="img/card_back.svg" class="back rounded hidden" />
+                            <img src="img/mo.svg" class="char-img" />
+                        </div>
+                        <div class="w-[11.5%] m-[0.5%] bg-[#ffffff] rounded cursor-pointer char char-kelly" onclick="toggle_card(this)">
+                            <img src="img/card_back.svg" class="back rounded hidden" />
+                            <img src="img/kelly.svg" class="char-img" />
+                        </div>
+                        <div class="w-[11.5%] m-[0.5%] bg-[#ffffff] rounded cursor-pointer char char-pete" onclick="toggle_card(this)">
+                            <img src="img/card_back.svg" class="back rounded hidden" />
+                            <img src="img/pete.svg" class="char-img" />
+                        </div>                        
+
+                    </div>    
+                </div>  
+            </div>                
+        </div>
+        <div class="w-1 h-full bg-gray-300">
+            &nbsp;
+        </div>
+        <div class="w-3/12 h-full">
+            <iframe id="chatbot_frame" src="/" class="w-full h-full border-none">
+
+            </iframe>
+        </div>
+    </div>
+</body>
+</html>
