@@ -7,8 +7,10 @@
   <script type="text/javascript" src="js/guesswho.js"></script>
 </head>
 <body class="w-full h-full">
+    <img src="img/fireworks.svg" class="w-[75%] h-[75%] absolute top-0 left-0 hidden" id="fireworks" />
+
     <div class="flex w-full h-full">
-        <div class="flex-1 max-w-[75%] h-full">
+        <div class="flex-1 md:max-w-[75%] h-full w-0">
             <div class="flex flex-col items-center w-full max-w-full p-4">
                 <div class="w-full h-full bg-[#045092] rounded text-center">
                     <img src="img/logo.svg" class="w-[22%] py-3 inline">
@@ -118,10 +120,10 @@
                 </div>  
             </div>                
         </div>
-        <div class="w-1 h-full bg-gray-300">
+        <div class="md:w-1 h-full bg-gray-300 w-0">
             &nbsp;
         </div>
-        <div class="w-3/12 h-full">
+        <div class="md:w-3/12 h-full w-full">
             <iframe id="chatbot_frame" src="/" class="w-full h-full border-none">
 
             </iframe>

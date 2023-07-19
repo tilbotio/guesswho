@@ -15,11 +15,15 @@
                 }
             
                 document.querySelector('.char-' + char + ' > .back').classList.add('hidden');
-                document.querySelector('.char-' + char + ' > .char-img').classList.remove('hidden');    
+                document.querySelector('.char-' + char + ' > .char-img').classList.remove('hidden'); 
+                
+                document.getElementById('fireworks').classList.remove('hidden');
             }, 2200);         
         }
 
         else if(e.data == 'reset') {
+            document.getElementById('fireworks').classList.add('hidden');
+
             let chars = document.querySelectorAll('.char');
             for (let i = 0; i < chars.length; i++) {                
                 chars[i].querySelector('.back').classList.add('hidden');        
